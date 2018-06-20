@@ -1,0 +1,61 @@
+html, body{
+    height: 100%;
+    overflow: hidden;
+    }
+    .container-fluid{
+    background-color: rgb(85, 84, 84);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    }
+    /* Navbar properties */
+    .navbar{
+    opacity: 1;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    .nav-link{
+    border: 2px solid rgb(146, 141, 141);
+    border-radius: 2px;
+    margin: auto;
+    }
+    #proj{
+    color: #fff;
+    margin: 0 6px;
+    font-size: 14px;
+    border-radius: 5px;
+    }
+    #about{
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    }
+    #contact{
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    }
+    .detail{
+    margin-top: 20px;
+    }
+    p{
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    a{
+    text-decoration: none;
+    color: #fff;
+    }
+    a:hover{
+    text-decoration: none;
+    color: #fff;
+    }
+    .links{
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    .fa{
+    font-size: 20px;
+    }

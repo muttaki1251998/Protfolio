@@ -1,0 +1,50 @@
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    link(rel='stylesheet', href='/css/contact.css')
+    link(href='https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded|Ubuntu', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Dosis|Encode+Sans+Semi+Expanded|Ubuntu', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Abel|Dosis|Encode+Sans+Semi+Expanded|Ubuntu', rel='stylesheet')
+    link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', rel='stylesheet')
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css')
+    script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js', integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49', crossorigin='anonymous')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js', integrity='sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T', crossorigin='anonymous')
+    title Document 
+  body
+    .container-fluid
+      nav.navbar.navbar-expand-lg.navbar-light
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto
+            li.nav-item.active
+              a#about.nav-link(href='/')
+                | Muttaki 
+                span.sr-only (current)
+            li.nav-item
+              a#proj.nav-link(href='#') Projects
+            li.nav-item
+              a#contact.nav-link(href='/contact') Contact
+      .row
+        .col-md-4
+        .col-md-4
+          img.img-responsive(src='/images/me.jpg', height='350px', width='350px', style='border: 2px solid black')
+        .col-md-4
+      .row
+        .col-md-4
+        .col-md-6.detail
+          h3.display-8(style="color: #fff; font-size: 20px;font-family: 'Ubuntu', sans-serif;")
+            | Name:Muhammad Allama Muttaki
+          p
+            span.fa.fa-envelope-o
+            |  Email: muttaki4989@gmail.com
+          p
+            a.fa.fa-github-square(href='https://github.com/muttaki1251998')
+              span.links  GitHub: muttaki1251998
+          p
+            a.fa.fa-linkedin-square(href='https://www.linkedin.com/in/muttaki-khan-0b5a94141/')
+              span.links  LinkedIn: M. A Muttaki
+        .col-md-3

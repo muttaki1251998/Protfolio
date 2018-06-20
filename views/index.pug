@@ -1,0 +1,103 @@
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    link(rel='stylesheet', href='/css/index.css')
+    link(href='https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded|Ubuntu', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Dosis|Encode+Sans+Semi+Expanded|Ubuntu', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Abel|Dosis|Encode+Sans+Semi+Expanded|Ubuntu', rel='stylesheet')
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css')
+    script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js', integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49', crossorigin='anonymous')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js', integrity='sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T', crossorigin='anonymous')
+    title Document
+ 
+  body
+    .container.bg1
+      nav.navbar.navbar-expand-lg.navbar-light
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto
+            li.nav-item.active
+              a#about.nav-link(href='/') 
+                | Muttaki 
+                span.sr-only (current)
+            li.nav-item
+              a#proj.nav-link(href='#') Projects
+            li.nav-item
+              a#contact.nav-link(href='/contact') Contact
+      .row
+        .col-md-12
+          .container
+            h1.display-5(style="margin-top: 7%;font-family: 'Dosis', sans-serif; font-weight: lighter") LOOKING FOR A WEB DEVELOPER?
+            p.text-muted(style="font-size: 20px; font-family: 'Abel', sans-serif;")
+              | Hello! I am a web developer and programmer living in Blackstreet, Toronto. I make web applications with Node.js and Angular.js
+    .container
+      .row.jumbotron
+        .col-xs-12
+          | I primarily use 
+          strong Node.js.
+          |   I specialize in MEAN web applications. But picking up a new framework is no big deal. I have been working with Node.js for 6 months now.
+          |                 I have experience in working with teams and I also have experience in communicating with clients and make web apps according to their choice. I am comfortable using Node.js
+          |                 for all sorts of projects.
+      br
+      .row
+        .col-md-6.jumbotron.backend
+          | For 
+          strong Backend
+          |  development, I use Express.js framework. I also have experience with socket programming with Node.
+          |                 For my personal projects, I have worked with MongoDB. But I know MySQL. I can work with mySQL and Node together
+          |                 for backend development. Checkout my GitHub account for my Node.js projects. With Node as server-side, I can
+          |                 work with any frontend frameworks.
+        .col-md-1
+        .col-md-5.jumbotron.frontend
+          p
+            | For 
+            strong Frontend
+            |  development, I have been working with Angular for over 3 months. I specialize in making single page web applications. I try to keep up with the Angular
+            |                 framework and its updates. As I mentioned earlier, I love working with MEAN apps. Check out my MEAN projects in the projects tab.
+            |                 .But I can work with whatever you use in frontend as long as
+            |                 the backend is Node.js.
+      .row
+        .col-md-6
+          h3.display-6(style="font-family: 'Ubuntu', sans-serif;") Skills
+          p Why choose me as your developer?
+        .col-md-1
+        .col-md-5
+          h3.display-8(style="font-family: 'Ubuntu', sans-serif;") Communication
+          p
+            | I have worked with teams and also remotely with clients. Understanding what the project manager or the client
+            | wants is a challenge. I use tools like Slack to make sure we are on the same page.
+      .row
+        .col-md-6
+        .col-md-1
+        .col-md-5
+          h3.display-8(style="font-family: 'Ubuntu', sans-serif;") Time Management
+          p
+            | As an ex cadet, I know the value of time. The value of a minute. I will try my best to finish your project
+            | with the given period.
+      .row
+        .col-md-6
+        .col-md-1
+        .col-md-5
+          h3.display-8(style="font-family: 'Ubuntu', sans-serif;") Clean Codes
+          p
+            | I write clean codes with comments as much as possible. I worked as game developer for 3 months.
+            | For my fellow team to understand my codes, I had write and narrative code.
+      .row
+        .col-md-6
+        .col-md-1
+        .col-md-5
+          h3.display-8(style="font-family: 'Ubuntu', sans-serif;") Working with a team
+          p
+            | Developing alone is not a problem but working with team is better. Working, communicating, making little jokes
+            | make me a consistent developer.
+    br
+    footer
+      .container-fluid
+        .row.jumbotron.footerPanel.bg-dark
+          .col-md-9
+            h3.display-5(style="font-family: 'Ubuntu', sans-serif; color: #fff") M. A. Muttaki
+            p(style="font-family: 'Ubuntu', sans-serif; color: #fff") Email: muttaki4989@gmail.com

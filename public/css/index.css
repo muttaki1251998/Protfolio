@@ -1,0 +1,42 @@
+    html, body{
+    height: 100%;
+    overflow-x: hidden;
+    }
+    .bg1{
+    background-color: rgb(30, 230, 120);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    }
+    /* Navbar properties */
+    .navbar{
+    opacity: 1;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    .nav-link{
+    border: 2px solid rgb(146, 141, 141);
+    border-radius: 2px;
+    margin: auto;
+    }
+    #proj{
+    margin: 0 6px;
+    font-size: 14px;
+    border-radius: 5px;
+    }
+    #about{
+    font-size: 14px;
+    border-radius: 5px;
+    }
+    #contact{
+    font-size: 14px;
+    border-radius: 5px;
+    }
+    /* footer */
+    .footerPanel{
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    }
