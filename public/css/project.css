@@ -78,4 +78,32 @@ body{
         color: #fff;
         font-size: 25px;
     }
+    .navbar{
+        opacity: 1;
+        font-family: 'Ubuntu', sans-serif;
+        }
+        .nav-link{
+        border: 2px solid rgb(146, 141, 141);
+        border-radius: 2px;
+        margin: auto;
+        }
+        #proj{
+        margin: 0 6px;
+        font-size: 14px;
+        border-radius: 5px;
+        font-weight: bold;
+        color: #000;
+        }
+        #about{
+        font-size: 14px;
+        border-radius: 5px;
+        font-weight: bold;
+        color: #000;
+        }
+        #contact{
+        font-size: 14px;
+        border-radius: 5px;
+        font-weight: bold;
+        color: #000;
+        }
     
