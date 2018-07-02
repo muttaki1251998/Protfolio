@@ -3,13 +3,13 @@
     overflow-x: hidden;
     }
     .bg1{
-    background-color: rgb(30, 230, 120);
+    background-color: rgb(170, 173, 255);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 350px;
     }
-    /* Navbar properties */
+    /* Navbar properties background-color: rgb(30, 230, 120); */
     .navbar{
     opacity: 1;
     font-family: 'Ubuntu', sans-serif;
@@ -39,4 +39,24 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 0;
+    }
+
+    @media only screen and (max-width: 768px) {
+        #proj{            
+        font-size: 14px;
+        margin: 0;
+        }
+        #about{
+        font-size: 14px;
+        
+        }
+        #contact{
+        font-size: 14px;
+        
+        }
+        .nav-link{
+            border: none;
+            border-radius: 2px;
+            margin: auto;
+            }
     }

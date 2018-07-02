@@ -1,0 +1,81 @@
+body{    
+    background-image: url("/images/pbg.jpg");    
+
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+     background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;  
+    
+
+}
+    .todo{
+        
+        height: 200px;
+        width: 150px;
+        background-color: rgb(64, 45, 151);
+        border-radius: 16px;
+        font-family: 'Ubuntu', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .shop{
+        height: 200px;
+        width: 150px;
+        background-color: rgb(69, 166, 211);
+        font-family: 'Ubuntu', sans-serif;
+        color: #fff;
+        text-align: center;
+        border-radius: 16px;
+    }
+
+    .meanAuth{
+        border-radius: 16px;
+        height: 200px;
+        width: 150px;
+        background-color: rgb(103, 45, 151);
+        font-family: 'Ubuntu', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+
+    .todoText{
+        margin-top: 70px;
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+        transition: font-size 2s;
+    }
+
+    .detText{
+        margin-top: 70px;
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+        transition: font-size 2s;
+    }
+
+    .todoText:hover{
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    a:hover{
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+    }
+    

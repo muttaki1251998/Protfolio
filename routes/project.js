@@ -1,4 +1,8 @@
 const express = require('express');
-const projectRouter = express.Router();
+const router = express.Router();
 
-module.exports = projectRouter;
+router.get('/', (req, res) => {
+    res.render('project');
+});
+
+module.exports = router;
